@@ -1,0 +1,58 @@
+/* Custom styles for the login page */
+/* ... (your custom CSS styles) ... */
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    position: relative;
+}
+#particles-js {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+.login-signup-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f8f9fa;
+    margin-top: 180px;
+}
+
+.login-signup-form h2 {
+    text-align: center;
+}
+
+.login-signup-form .form-group {
+    margin-bottom: 15px;
+}
+
+.login-signup-form label {
+    font-weight: bold;
+}
+
+.login-signup-form input[type="email"],
+.login-signup-form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.login-signup-form .btn-primary {
+    width: 100%;
+}
+.social-signup {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.social-signup p {
+    margin-bottom: 10px;
+}
+
+.social-signup a {
+    margin: 0 10px;
+}
